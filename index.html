@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="text-container">
+            <h1 class="welcome">Welcome</h1>
+            <p class="website">To my website</p>
+        </div>
+        <div class="profile-container">
+            <img src="em2.jpg" alt="Profile Picture" class="profile-img">
+        </div>
+    </header>
+
+    <main class="main-body">
+        <div class="content-box">
+            <h2>About Me!</h2>
+            <p>สวัสดีครับ! ผมภูผา นักศึกษาSoftware Engineer จากอดีตเด็กไม่เอาถ่านสู่เป้าหมายอันยิ่งใหญ่ที่จะเป็นFrontend
+                Developer และ Website Designer</p>
+        </div>
+
+        <div class="project-container">
+            <h2 class="project-title">Project</h2>
+
+            <section class="image-grid">
+                <div class="image-card" id="card1" draggable="true">
+                    <h3>Project 1</h3>
+                    <img src="Cute.jpg" alt="Project 1" class="grid-image" id="image1">
+                    <p>โปรเจ็คแอพและเว็บแนะนำสถานที่ท่องเที่ยว</p>
+                </div>
+                <div class="image-card" id="card2" draggable="true">
+                    <h3>Project 2</h3>
+                    <img src="pic1.jpg" alt="Project 2" class="grid-image" id="image2">
+                    <p>โปรเจ็คทำเว็บฝึกเขียนโค้ดหลายภาษา</p>
+                </div>
+                <div class="image-card" id="card3" draggable="true">
+                    <h3>Project 3</h3>
+                    <img src="Cute.jpg" alt="Project 3" class="grid-image" id="image3">
+                    <p>อยู่ในระหว่างรอดำเนินการ</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span id="close-lightbox" class="close-btn">&times;</span>
+        <img id="lightbox-image" src="" alt="Full Image">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+<footer class="footer">
+    <h2 class="footer-title">Contact Me!</h2>
+    <div class="footer-container">
+        <a href="https://www.facebook.com/xem.975896" target="_blank" class="footer-box">
+            <img src="facebook.jpg" alt="Link 1" class="footer-img">
+        </a>
+        <a href="https://discord.gg/8NRHNWQX" target="_blank" class="footer-box">
+            <img src="Discord.png" alt="Link 2" class="footer-img">
+        </a>
+        <a href="https://www.instagram.com/em_19147/" target="_blank" class="footer-box">
+            <img src="instagram.webp" alt="Link 3" class="footer-img">
+        </a>
+    </div>
+</footer>
+
+</html>
